@@ -1,0 +1,6 @@
+@NSE.Order.API_HostAddress = http://localhost:5287
+
+GET {{NSE.Order.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
